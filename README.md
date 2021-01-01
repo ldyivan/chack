@@ -1,1 +1,5 @@
-# chack
+#blog_hzv5_cn
+
+访问 dz.hzv5.cn
+
+各种html静态网页托管在这里

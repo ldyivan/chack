@@ -1,0 +1,55 @@
+{
+    "name": "鱼尾纹语音转MP3插件验证授权",
+    "url": "https://www.hzv5.cn",
+    "address": {
+        "city": "北京",
+        "country": "中国"
+    },
+    "domain_list": [
+        {
+            "name": "459339321",
+            "plugin":"鱼尾语音转MP3插件",
+            "start": "2020.12.08.00.00.01",
+            "stop": "90",
+            "appkey": "YW_1iuA1V6uMp3XGJ3qBtl3",
+            "wx": "liudingyuan2011",
+            "wxid": "wxid_5e0e3rtuql3y22",
+            "ban": "0",
+            "cpu": "BFEBFBFF-00030678-00000000-00000000",
+            "sd": "01C90766099D00371295",
+            "gg": "公告：语音转MP3插件测试公告...",
+            "gb": "0",
+            "url": "https://www.hzv5.cn"
+        },
+        {
+            "name": "测试用户1",
+            "plugin":"鱼尾语音转MP3插件",
+            "start": "2019.07.07.00.00.01",
+            "stop": "9999",
+            "appkey": "测试授权的插件",
+            "wx": "liudingyuan2018",
+            "wxid": "wxid_s6u4xgtwp24u22",
+            "ban": "0",
+            "cpu": "BFEBFBFF-000206D7-00000000-00000000",
+            "sd": "XM2_00461639",
+            "gg": "公告：...",
+            "gb": "0",
+            "url": "https://www.hzv5.cn"
+        },
+        {
+            "name": "测试1",
+            "plugin":"鱼尾语音转MP3插件",
+            "start": "2020.12.11.00.00.01",
+            "stop": "80000",
+            "appkey": "YW_ceshi20201211_01",
+            "wx": "liudingyuan2018",
+            "wxid": "wxid_3xpjg2n5natk12",
+            "ban": "0",
+            "cpu": "BFEBFBFF-000306C3-00000000-00000000",
+            "sd": "",
+            "gg": "公告：...",
+            "gb": "0",
+            "url": "https://www.hzv5.cn"
+        }
+    ]
+}
