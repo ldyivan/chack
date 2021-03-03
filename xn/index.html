@@ -1,8 +1,8 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>新年倒计时</title>
+<title>新年倒计时 - 吖远zzy</title>
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=Aleo");
@@ -32,7 +32,7 @@ canvas {
 
 
 .label {
-  font-size: 2.2rem;
+  font-size: 5.2rem;
   background: url("img/6368077651977322227241996.png");
   background-clip: text;
   -webkit-background-clip: text;
@@ -90,6 +90,7 @@ canvas {
 </head>
 <body>
 <div class="middle">
+	<font class="label" size="100">新年倒计时 </font>
 	<h1 class="label">New Year Countdown </h1>
 	<div class="time">
 		<span>
@@ -204,23 +205,24 @@ new Snow();
 
 ////////////////////////////////////////////////////////////
 var date = new Date();
-// date .getYear(); //获取当前年份(2位)
-// date .getFullYear(); //获取完整的年份(4位)
-// date .getMonth(); //获取当前月份(0-11,0代表1月)
-// date .getDate(); //获取当前日(1-31)
-// date .getDay(); //获取当前星期X(0-6,0代表星期天)
-// date .getTime(); //获取当前时间(从1970.1.1开始的毫秒数)
-// date .getHours(); //获取当前小时数(0-23)
-// date .getMinutes(); //获取当前分钟数(0-59)
-// date .getSeconds(); //获取当前秒数(0-59)
-// date .getMilliseconds(); //获取当前毫秒数(0-999)
-// date .toLocaleDateString(); //获取当前日期
+// date.getYear(); //获取当前年份(2位)
+// date.getFullYear(); //获取完整的年份(4位)
+// date.getMonth(); //获取当前月份(0-11,0代表1月)
+// date.getDate(); //获取当前日(1-31)
+// date.getDay(); //获取当前星期X(0-6,0代表星期天)
+// date.getTime(); //获取当前时间(从1970.1.1开始的毫秒数)
+// date.getHours(); //获取当前小时数(0-23)
+// date.getMinutes(); //获取当前分钟数(0-59)
+// date.getSeconds(); //获取当前秒数(0-59)
+// date.getMilliseconds(); //获取当前毫秒数(0-999)
+// date.toLocaleDateString(); //获取当前日期
 // var mytime=date .toLocaleTimeString(); //获取当前时间
-// date .toLocaleString( ); //获取日期与时间
+// date.toLocaleString( ); //获取日期与时间
 	
 // Simple CountDown Clock
+//document.write("<p>" + (parseInt(date.getFullYear())+1) + "</p>");
 
-const comingdate = new Date("Jan 1, date .getFullYear() 00:00:00");
+const comingdate = new Date("Jan 1, "  + (parseInt(date.getFullYear())+1) + " 00:00:00");
 
 const d = document.getElementById("d");
 const h = document.getElementById("h");
