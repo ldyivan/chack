@@ -37,9 +37,24 @@
             "url": "https://www.hzv5.cn"
         },
         {
+            "name": "测试用户1",
+            "plugin":"鱼尾语音转MP3插件",
+            "start": "2019.07.07.00.00.01",
+            "stop": "9999",
+            "appkey": "测试授权的插件",
+            "wx": "liudingyuan2015",
+            "wxid": "LDY0ivan",
+            "ban": "0",
+            "cpu": "BFEBFBFF-000206D7-00000000-00000000",
+            "sd": "XM2_00461639",
+            "gg": "公告：...",
+            "gb": "0",
+            "url": "https://www.hzv5.cn"
+        },
+        {
             "name": "定制用户01",
             "plugin":"鱼尾语音转MP3插件",
-            "start": "2023.09.26.00.00.01",
+            "start": "2023.09.20.00.00.01",
             "stop": "7",
             "appkey": "YW_1iuA4V4uMp8XGJ3qBt99",
             "wx": "wxid_5e0e3rtuql3y22",
