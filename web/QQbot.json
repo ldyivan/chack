@@ -1,7 +1,7 @@
 {
     "version": "1.0.1",
     "updateLog": "1. 优化了消息发送体验\n2. 修复了部分已知问题\n3. 增加了使用说明功能\n4. 增加了版本检查功能",
-    "downloadUrl": "http://dz.hzv5.cn/BlogRss20191205.apk",
+    "downloadUrl": "http://dz.hzv5.cn/BlogRss20191214.apk",
     "forceUpdate": false,
     "showAnnouncements": true,
     "showInstructions": true,
@@ -19,7 +19,7 @@
             "title": "使用提醒",
             "content": "请确保您使用的是最新版本的应用，以获得最佳体验。",
             "date": "2024-12-23",
-            "link": "http://dz.hzv5.cn/BlogRss20191205.apk",
+            "link": "http://dz.hzv5.cn/BlogRss20191214.apk",
             "color": "#4dabf7",
             "backgroundColor": "#e7f5ff",
             "duration": 5000
