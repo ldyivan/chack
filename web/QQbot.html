@@ -2,31 +2,50 @@
 <html>
 <head>
     <meta charset="utf-8">
-	<title> 吖远zzyのQQ频道机器人APP </title>
-    <meta name="validation-tag" content="ssad/tetris_web/page/adapt_pc" />
+    <title>吖远zzyのQQ频道机器人APP</title>
+    <script>
+        // 定义返回的 JSON 数据
+        window.appData = {
+            "version": "1.0.1",
+            "updateLog": "1. 优化了消息发送体验\n2. 修复了部分已知问题\n3. 增加了使用说明功能\n4. 增加了版本检查功能",
+            "downloadUrl": "http://dz.hzv5.cn/BlogRss20191205.apk",
+            "forceUpdate": false,  // 是否强制更新
+            "showAnnouncements": true,  // 是否显示公告
+            "showInstructions": true,  // 是否显示使用说明
+            "announcements": [
+                {
+                    "title": "功能更新通知",
+                    "content": "我们最近更新了一些新功能，包括使用说明和版本检查等，欢迎体验！",
+                    "date": "2023-12-23"
+                },
+                {
+                    "title": "使用提醒",
+                    "content": "请确保您使用的是最新版本的应用，以获得最佳体验。",
+                    "date": "2023-12-23"
+                }
+            ],
+            "instructions": "# QQ频道机器人使用说明\n\n## 基本功能\n1. 登录功能\n   - 支持账号密码登录\n   - 支持记住账号和自动登录\n\n## 消息功能\n1. 消息发送\n   - 支持文本消息\n   - 支持@用户\n\n## 通知设置\n1. 消息通知\n   - 可开启/关闭消息通知\n   - 支持@消息震动提醒\n   - 支持系统通知栏显示\n\n## 其他功能\n1. 版本更新\n   - 自动检查新版本\n   - 支持一键更新\n\n2. 账号管理\n   - 支持切换正式/沙盒环境\n   - 支持退出登录",
+            "lastUpdated": "2023-12-23 12:00:00"
+        };
+    </script>
 </head>
 <body>
-    <script type="application/json" id="bot-data">
-    {
-        "version": "1.0.1",
-        "updateLog": "1. 修复了xxx bug\n2. 新增了xxx功能",
-        "downloadUrl": "http://dz.hzv5.cn/BlogRss20191205.apk",
-		"forceUpdate": false,
-        "announcements": [
-            {
-                "content": "welcome!!!",
-                "time": "2024-01-20 12:00:00"
-            },
-            {
-                "content": "这是第二条公告内容",
-                "time": "2024-01-19 15:30:00"
+    <div id="app">
+        <h1>吖远zzyのQQ频道机器人APP</h1>
+        <p>如果你看到这个页面，说明你正在直接访问数据接口。</p>
+        <p>这个页面用于为 APP 提供数据服务，包括：</p>
+        <ul>
+            <li>版本信息</li>
+            <li>更新日志</li>
+            <li>系统公告</li>
+            <li>使用说明</li>
+        </ul>
+        <script>
+            // 当通过 AJAX 请求访问时，自动返回 JSON 数据
+            if (window.location.search.includes('format=json')) {
+                document.write(JSON.stringify(window.appData));
             }
-        ],
-		"showAnnouncements": true,
-        "instructions": "<div>欢迎使用QQ频道机器人手机移动端APP，方便没有电脑但是又想要玩机器人的朋友们使用QQ频道机器人，本机器人App所有功能接口均是使用的QQ_Bot官方(https://bot.q.qq.com/wiki/develop/api-v2/)开放接口进行实现，支持使用APPID+APItoken登录，目前功能上基本支持自定义扩展插件和拉取频道列表查看频道消息等...</div>",
-		"showInstructions": true,
-        "lastUpdated": "2024-12-15 12:00:00"
-    }
-    </script>
+        </script>
+    </div>
 </body>
-</html>
+</html> 
