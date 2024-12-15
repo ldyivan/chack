@@ -1,7 +1,7 @@
 {
     "version": "1.0.1",
     "updateLog": "1. 优化了消息发送体验\n2. 修复了部分已知问题\n3. 增加了使用说明功能\n4. 增加了版本检查功能",
-    "downloadUrl": "http://dz.hzv5.cn/BlogRss20191214.apk",
+    "downloadUrl": "http://dz.hzv5.cn/QQ%e9%a2%91%e9%81%93%e6%9c%ba%e5%99%a8%e4%ba%ba_QQbot1.0.0_by_ldyivan_2024_12_15.apk",
     "forceUpdate": false,
     "showAnnouncements": true,
     "showInstructions": true,
@@ -9,8 +9,8 @@
         {
             "title": "功能更新",
             "content": "我们最近更新了一些新功能，包括使用说明和版本检查等，欢迎体验！",
-            "date": "2024-12-23",
-            "link": "https://app.hzv5.cn/",
+            "date": "2024-12-15",
+            "link": "http://dz.hzv5.cn/QQ%e9%a2%91%e9%81%93%e6%9c%ba%e5%99%a8%e4%ba%ba_QQbot1.0.0_by_ldyivan_2024_12_15.apk",
             "color": "#ff6b6b",
             "backgroundColor": "#fff5f5",
             "duration": 5000
@@ -18,8 +18,8 @@
         {
             "title": "使用提醒",
             "content": "请确保您使用的是最新版本的应用，以获得最佳体验。",
-            "date": "2024-12-23",
-            "link": "http://dz.hzv5.cn/BlogRss20191214.apk",
+            "date": "2024-12-15",
+            "link": "https://app.hzv5.cn/",
             "color": "#4dabf7",
             "backgroundColor": "#e7f5ff",
             "duration": 5000
